@@ -103,7 +103,7 @@ export default function TrendingProduct() {
 					{trendingProducts.map((product) => (
 						<li
 							key={product.id}
-							className='border-[1px] #f1f1f1 flex flex-col items-center justify-start py-6 px-3 rounded-lg hover:shadow-lg'
+							className='border-[1px] #f1f1f1 flex flex-col items-center justify-start py-6 px-3 rounded-lg hover:shadow-xl'
 						>
 							<Link href={product.href} className='group w-40 h-40 grid place-items-center my-1'>
 								<Image

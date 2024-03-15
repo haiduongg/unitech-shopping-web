@@ -7,6 +7,7 @@ import { FiArrowUpRight, FiSearch, FiShoppingCart } from 'react-icons/fi';
 import { Button } from '@/components/ui/button';
 
 import Logo from '/public/logo.png';
+import SearchBar from './search-bar';
 
 interface LinkList {
   label: string;
@@ -58,9 +59,7 @@ function Navbar() {
 
           <ul className='flex items-center gap-6'>
             <li>
-              <Button variant='secondary' size='icon' className='gird place-items-center rounded-full bg-black text-white hover:bg-hover-normal'>
-                <FiSearch size={18} />
-              </Button>
+              <SearchBar />
             </li>
             <li>
               <Link href={'/cart'}>
