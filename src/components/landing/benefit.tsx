@@ -24,7 +24,7 @@ export default function Benefit() {
 			<div className='container mx-auto'>
 				<div className='flex items-center justify-start gap-12'>
 					<div className='w-64 h-[3px] bg-primary -ml-20'></div>
-					<h2 className='text-4xl font-semibold max-w-[430px] leading-normal text-secondary-700'>Benefits You Get When Using Our Sevices</h2>
+					<h2 className='text-4xl font-bold max-w-[430px] leading-normal'>Benefits You Get When Using Our Sevices</h2>
 				</div>
 				<div className='mt-20'>
 					<ul className='grid grid-cols-3'>

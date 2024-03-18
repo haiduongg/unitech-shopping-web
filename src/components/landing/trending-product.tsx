@@ -85,7 +85,7 @@ export default function TrendingProduct() {
 				<div className='flex items-center justify-between'>
 					<h2
 						id='trending-product'
-						className='text-3xl font-semibold leading-normal text-center text-secondary-700'
+						className='text-center text-4xl font-bold leading-normal'
 					>
 						<p>Trending Product</p>
 					</h2>
@@ -99,7 +99,7 @@ export default function TrendingProduct() {
 						</Button>
 					</Link>
 				</div>
-				<ul className='grid grid-cols-4 gap-6 mt-4'>
+				<ul className='grid grid-cols-4 gap-6 mt-8'>
 					{trendingProducts.map((product) => (
 						<li
 							key={product.id}

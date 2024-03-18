@@ -7,7 +7,7 @@ import { IconType } from 'react-icons';
 import { Button } from '../ui/button';
 import { FaSquareFacebook, FaGithub, FaYoutube } from 'react-icons/fa6';
 
-import Logo from '/public/logo.png';
+import Logo from '/public/whiteLogo.png';
 
 interface IFooterLinks {
 	id: number;
@@ -99,11 +99,12 @@ function Footer() {
 				<div className='py-14 flex items-start justify-between'>
 					<Link
 						href={'/'}
-						className='hover:opacity-80 flex items-center justify-start gap-2'
+						className='hover:opacity-80 flex items-center justify-start gap-3'
 					>
-						<Image src={Logo} alt='logo' width={40} height={40} />
-						<h1 className='text-2xl font-bold'>
-							<span className='text-white'>Uni</span>Shop
+						<Image src={Logo} alt='logo' width={60} height={60} />
+						<h1 className='text-3xl font-bold'>
+							<span className='text-white'>Uni</span>
+							Tech
 						</h1>
 					</Link>
 					<div className='pr-5'>

@@ -4,15 +4,19 @@ import Link from 'next/link';
 import Hero from '@/components/landing/hero';
 import Benefit from '@/components/landing/benefit';
 import TrendingProduct from '@/components/landing/trending-product';
-import SelectCategories from '@/components/landing/select-categories';
+import TopCategories from '@/components/landing/top-categories';
+import Brands from '@/components/landing/brands';
+import CustomersReviews from '@/components/landing/customers-reviews';
 
 export default function Home() {
 	return (
 		<div id='page'>
 			<Hero />
-			<SelectCategories />
+			<Brands />
+			<TopCategories />
 			<TrendingProduct />
 			<Benefit />
+			<CustomersReviews />
 		</div>
 	);
 }
