@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { Button } from '../ui/button';
 
 import Laptop from '@/assets/img/categories-thumbnail/laptop.jpg';
-import Phone from '@/assets/img/categories-thumbnail/phone.jpg';
+import Mobile from '@/assets/img/categories-thumbnail/phone.jpg';
 import Tablet from '@/assets/img/categories-thumbnail/tablet.webp';
 import PC from '@/assets/img/categories-thumbnail/pc-components.jpg';
 import Accessory from '@/assets/img/categories-thumbnail/accessory.jpg';
@@ -20,10 +20,10 @@ interface ICategories {
 
 export default function TopCategories() {
 	const categories: ICategories[] = [
-		{ name: 'Phone', image: Laptop, href: '/products/phone' },
-		{ name: 'Laptop', image: Phone, href: '/products/laptop' },
+		{ name: 'Mobile', image: Mobile, href: '/products/mobile' },
+		{ name: 'Laptop', image: Laptop, href: '/products/laptop' },
 		{ name: 'Tablet', image: Tablet, href: '/products/table' },
-		{ name: 'PC / Components', image: PC, href: '/products/pc-components' },
+		{ name: 'Computer', image: PC, href: '/products/computer' },
 		{ name: 'Accessory', image: Accessory, href: '/products/accessory' },
 	];
 	return (

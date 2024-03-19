@@ -7,11 +7,9 @@ import { Button } from '../../ui/button';
 import { TbArrowBigRightFilled } from "react-icons/tb";
 import ProductsShow from '@/components/landing/hero/products-show';
 
-
-
 export default function Hero() {
 	return (
-		<div className='container pt-16 pb-40 flex items-start justify-between bg-white'>
+		<div className='container pt-24 pb-40 flex items-start justify-between bg-white'>
 			<div className='w-[670px] mt-6'>
 				<div className='max-w-fit py-3 px-5 bg-primary-50 rounded-full'>
 					<p className='text-primary-600 font-semibold'>

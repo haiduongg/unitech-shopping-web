@@ -6,8 +6,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "UniShop",
-  description: "Unleash Possibilities, Explore Technology's Realm.",
+  title: "UniTech",
+  description: "Unleash Possibilities, Explore Technology's Realm",
 };
 
 export default function RootLayout({
@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth customize-scrollbar">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className} suppressHydrationWarning={true}>{children}</body>
     </html>
   );
 }

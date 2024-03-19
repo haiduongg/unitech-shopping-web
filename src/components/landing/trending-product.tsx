@@ -7,7 +7,7 @@ import { Button } from '../ui/button';
 
 import { FaArrowRightLong } from 'react-icons/fa6';
 
-import moneyFormat from '@/lib/moneyFormat';
+import { moneyFormat } from '@/utils/moneyFormat';
 
 import Test from '@/assets/img/products/honor.webp';
 import Airpod from '@/assets/img/products/airpod.webp';

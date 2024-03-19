@@ -1,16 +1,15 @@
-import Image from "next/image";
-import Navbar from '@/components/landing/navbar';
+import FilterBar from '@/components/landing/products/filter-bar';
+import ProductsList from '@/components/landing/products/products-list';
 
 export default function Products() {
 	return (
-		<div className="container pt-8">
-			<h1 className="text-3xl uppercase font-bold">Products</h1>
-			<div className="mt-8 pt-8 border-t-[1px] flex items-start justify-start gap-5">
-				<div className="w-96 bg-red-200 min-h-[500px]">
-
+		<div className='container pt-12 pb-20 min-h-[calc(100vh-80px)]'>
+			<div className='grid grid-cols-12 gap-5'>
+				<div id='filter-bar' className='col-span-2'>
+					<FilterBar />
 				</div>
-				<div className="w-full bg-blue-200 min-h-[500px]">
-
+				<div id='products' className='col-span-10'>
+					<ProductsList />
 				</div>
 			</div>
 		</div>

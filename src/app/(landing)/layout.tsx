@@ -1,3 +1,5 @@
+import { Metadata } from "next";
+
 import Navbar from "@/components/landing/navbar";
 import Footer from "@/components/landing/footer";
 

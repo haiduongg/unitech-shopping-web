@@ -1,14 +1,15 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
-ProductDetailPage.propTypes = {
-
-};
+import BreadCrumbs from '@/components/landing/product-detail/breadcrumbs';
+import ProductInformation from '@/components/landing/product-detail/product-information';
+import ProductReviews from '@/components/landing/product-detail/product-reviews';
 
 function ProductDetailPage() {
 	return (
-		<div>
-			<h1>Product Detail page</h1>
+		<div className='pt-7 mb-20 container'>
+			<BreadCrumbs />
+			<ProductInformation />
+			<ProductReviews />
 		</div>
 	);
 }

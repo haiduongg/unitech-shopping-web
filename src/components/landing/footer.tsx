@@ -101,7 +101,7 @@ function Footer() {
 						href={'/'}
 						className='hover:opacity-80 flex items-center justify-start gap-3'
 					>
-						<Image src={Logo} alt='logo' width={60} height={60} />
+						<Image src={Logo} alt='logo' width={60} height={60} className='size-16' />
 						<h1 className='text-3xl font-bold'>
 							<span className='text-white'>Uni</span>
 							Tech
